@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>News Feed</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <img src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f304.svg" height="100px">
+  <header>
+    <h1>MY NEWSFEED</h1>
+  </header>
+
+  <div id="container">
+
+    <div id="head">
+      <h1>MY NEWSFEED</h1>
+    </div>
+
+    <div id="header">
+      <button id="loadNewsButton" onclick="window.location.href = 'newNews.html'">Load New News</button>
+      <button id="loadNewsButton" onclick="window.location.href = 'savedNews.html'">Load Saved News</button>
+    </div>
+
+  </div>
+
+
+
+  <main>
+    <div id="hidden" style="display: none;">
+      <div id="newsContainer"></div>
+
+    </div>
+    <h3>Get Latest News</h3>
+    <h2>Stay Updated!</h2>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
